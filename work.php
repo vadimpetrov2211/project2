@@ -20,9 +20,9 @@ session_start();
 <body class="last">
   <?php
     $host = 'localhost';  //Адрес сервера
-    $user = 'root';    // Имя пользователя
-    $pass = 'debian'; // Пароль
-    $db_name = 'web';   // Имя базы данных
+    $user = 'ce82742_web';    // Имя пользователя
+    $pass = '12345678Web'; // Пароль
+    $db_name = 'ce82742_web';   // Имя базы данных
     $link = mysqli_connect($host, $user, $pass, $db_name); // Соединяемся с БД
 
     // Если соединение установить не удалось
