@@ -23,10 +23,10 @@ session_start();
 </div>
 
 <?php
-$servername = "127.0.0.1"; // Адрес сервера
-$username = "root"; // Имя пользователя
-$password = "debian"; // Пароль
-$BDname = "web"; // Название БД
+$servername = "localhost"; // Адрес сервера
+$username = "ce82742_web"; // Имя пользователя
+$password = "12345678Web"; // Пароль
+$BDname = "ce82742_web"; // Название БД
 
 // Подключение к БД
 $mysqli = new mysqli($servername, $username, $password, $BDname);
